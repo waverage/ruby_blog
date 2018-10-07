@@ -1,0 +1,21 @@
+ru:
+    common:
+        app_name: 'First Ruby Blog'
+        contacts: 'Контакты'
+        errors: 'При заполнении формы возникли ошибки'
+        back: 'Назад'
+        edit: 'Редактировать'
+        delete: 'Удалить'
+        confirm: 'Вы уверенны?'
+    posts:
+        name: 'Статьи'
+        create: 'Создать статью'
+        index:
+            title: 'Статьи'
+        new:
+            title: 'Новая статья'
+        edit:
+            title: 'Редактирование статьи'
+        form:
+            submit:
+                '%{action} статью'

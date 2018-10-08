@@ -7,6 +7,9 @@ ru:
         edit: 'Редактировать'
         delete: 'Удалить'
         confirm: 'Вы уверенны?'
+    will_paginate:
+        previous_label: '&larr; Туда'
+        next_label: 'Сюда &rarr;'
     posts:
         name: 'Статьи'
         create: 'Создать статью'

@@ -12,6 +12,7 @@ gem 'carrierwave', '~> 1.0'
 gem 'mini_magick'
 gem 'trix'
 gem 'will_paginate', '~> 3.1.0'
+gem 'ancestry'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.3'

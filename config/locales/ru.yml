@@ -11,7 +11,7 @@ ru:
         previous_label: '&larr; Туда'
         next_label: 'Сюда &rarr;'
     posts:
-        name: 'Статьи'
+        name: 'Все статьи'
         create: 'Создать статью'
         index:
             title: 'Статьи'
@@ -22,3 +22,15 @@ ru:
         form:
             submit:
                 '%{action} статью'
+    categories:
+        name: 'Категории'
+        create: 'Создать категорию'
+        index:
+            title: 'Категории'
+        new:
+            title: 'Новая категория'
+        edit:
+            title: 'Редактирование категории'
+        form:
+            submit:
+                '%{action} категорию'

@@ -11,7 +11,7 @@ ru:
         previous_label: '&larr; Туда'
         next_label: 'Сюда &rarr;'
     posts:
-        name: 'Все статьи'
+        name: 'Блог о блогах'
         create: 'Создать статью'
         index:
             title: 'Статьи'

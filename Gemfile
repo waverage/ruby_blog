@@ -14,6 +14,7 @@ gem 'trix'
 gem 'will_paginate', '~> 3.1.0'
 gem 'ancestry'
 gem 'pg', '~> 0.18'
+gem 'devise'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.3'
@@ -53,6 +54,7 @@ end
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console', '>= 3.3.0'
+  gem "letter_opener"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

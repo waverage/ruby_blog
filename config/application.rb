@@ -12,6 +12,7 @@ module FirstBlog
     config.load_defaults 5.1
 
     config.time_zone = 'Europe/Kiev'
+    config.i18n.available_locales = [:ru, :en]
     config.i18n.default_locale = :ru
 
     # Settings in config/environments/* take precedence over those specified here.

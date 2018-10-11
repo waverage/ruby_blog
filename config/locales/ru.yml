@@ -7,6 +7,8 @@ ru:
         edit: 'Редактировать'
         delete: 'Удалить'
         confirm: 'Вы уверенны?'
+        create: 'Создать'
+        save: 'Сохранить'
     will_paginate:
         previous_label: '&larr; Туда'
         next_label: 'Сюда &rarr;'
@@ -15,22 +17,24 @@ ru:
         create: 'Создать статью'
         index:
             title: 'Статьи'
-        new:
-            title: 'Новая статья'
-        edit:
-            title: 'Редактирование статьи'
-        form:
-            submit:
-                '%{action} статью'
-    categories:
-        name: 'Категории'
-        create: 'Создать категорию'
-        index:
-            title: 'Категории'
-        new:
-            title: 'Новая категория'
-        edit:
-            title: 'Редактирование категории'
-        form:
-            submit:
-                '%{action} категорию'
+    admin:
+        posts:
+            new:
+                title: 'Новая статья'
+            edit:
+                title: 'Редактирование статьи'
+            form:
+                submit:
+                    '%{action} статью'
+        categories:
+            name: 'Категории'
+            create: 'Создать категорию'
+            index:
+                title: 'Категории'
+            new:
+                title: 'Новая категория'
+            edit:
+                title: 'Редактирование категории'
+            form:
+                submit:
+                    '%{action} категорию'

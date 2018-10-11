@@ -8,9 +8,9 @@
             <% if @post.category.present? %>
                 <%= link_to @post.category.name, @post.category %> | 
             <% end %>
-            <% if user_signed_in? %>
-                <%= link_to t('common.edit'), edit_post_path(@post) %> | 
-                <%= link_to t('common.delete'), post_path(@post), method: :delete, data: { confirm: t('common.confirm') } %>
+            <% if user_signed_in? && current_user.admin? %>
+                <%= link_to t('common.edit'), edit_admin_post_path(@post) %> | 
+                <%= link_to t('common.delete'), admin_post_path(@post), method: :delete, data: { confirm: t('common.confirm') } %>
             <% end %>
         </small>
     </section>
